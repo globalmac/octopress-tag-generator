@@ -10,7 +10,7 @@
   - tag_title_prefix: "Тэг: "
   - tag_meta_description_prefix: "Тэг: "
   - tags_dir: blog/tags
-- И теперь в нужном нам месте, например в шаблоне поста **(PATH_TO_OCTOPRESS/source/_includes/article.html)**, вставляем - **{% page.tags | tag_links %}**
+- И теперь в нужном нам месте, например в шаблоне поста **(PATH_TO_OCTOPRESS/source/_includes/article.html)**, вставляем - **{{ page.tags | tag_links }}**
 
 Как Вы поняли, адреса страниц будут такие : **SITE_URL/blog/tags/мой_тэг**
 
