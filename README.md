@@ -2,7 +2,7 @@
 
 ### Установка:
 
-- Скачиваем [архив](http://example.com/)
+- Скачиваем [архив](https://github.com/globalmac/octopress-tag-generator/archive/master.zip)
 - Файл **tag_generator.rb** кидаем в папку **PATH_TO_OCTOPRESS/plugins**
 - Файл **tag_feed.xml** кидаем в папку **PATH_TO_OCTOPRESS/source**
 - Файл **tags_index.html** кидаем в папку **PATH_TO_OCTOPRESS/source/_layouts**
