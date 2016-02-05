@@ -1,8 +1,17 @@
 # Octopress Tag Generator Plugin
 
+Совместим с **Octopress 3.0**
+
+## Особенности:
+
+- Работает по аналогии с категориями Octopress
+- Генерирует atom.xml для каждой директории с тэгом
+- С помощью **stringex** генерирует транслит для разных языков ("/вася-привет/" => "vasiia-privet"), немного своеобразно правда.
+
 ### Установка:
 
 - Скачиваем [архив](https://github.com/globalmac/octopress-tag-generator/archive/master.zip)
+- В любой статье прописываем в блоке YML - **tags: [Новость дня, Тест, ruby]**
 - Файл **tag_generator.rb** кидаем в папку **PATH_TO_OCTOPRESS/plugins**
 - Файл **tag_feed.xml** кидаем в папку **PATH_TO_OCTOPRESS/source**
 - Файл **tags_index.html** кидаем в папку **PATH_TO_OCTOPRESS/source/_layouts**
