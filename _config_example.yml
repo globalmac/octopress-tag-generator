@@ -1,0 +1,10 @@
+# Пример значений для _config.yml
+
+# Ссылка и директория для тэгов
+tags_dir: blog/tags    
+
+# Префикс для title
+tag_title_prefix: "Тэг: " 
+
+# Префикс для meta description
+tag_meta_description_prefix: "Тэг: "
